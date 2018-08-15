@@ -3,8 +3,8 @@ This repo includes build scaffolding to build the `SunMSCAPI` JCA provider¹ wit
 
 # Prerequisites
 * The environment variable `JAVA_HOME` should point to the top-level directory of the JDK you want to build against.
-* Make sure you have a working Win32 build environment (e.g. [https://visualstudio.microsoft.com/downloads/](Build Tools for Visual Studio 2017)).
-* Download the [http://hg.openjdk.java.net/jdk/jdk/file/tip/src/jdk.crypto.mscapi/windows/native/libsunmscapi/security.cpp](security.cpp) file from the `libsunmscapi` package of OpenJDK and put it in this repos root folder. Note that the version of this file should match the version of the JDK you want to work with, i.e. [http://hg.openjdk.java.net/jdk8u/jdk8u/tags](one of these) for a OpenJDK 1.8 update release.
+* Make sure you have a working Win32 build environment (e.g. [Build Tools for Visual Studio 2017](https://visualstudio.microsoft.com/downloads/)).
+* Download the [security.cpp](http://hg.openjdk.java.net/jdk/jdk/file/tip/src/jdk.crypto.mscapi/windows/native/libsunmscapi/security.cpp) file from the `libsunmscapi` package of OpenJDK and put it in this repos root folder. Note that the version of this file should match the version of the JDK you want to work with, i.e. [one of these](http://hg.openjdk.java.net/jdk8u/jdk8u/tags) for a OpenJDK 1.8 update release.
 
 # Usage
 * To build, run `nmake`.
